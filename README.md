@@ -13,6 +13,15 @@
 *	host\_inst\_rate		67875			# Simulator instruction rate (inst/s)
 
 
+### Ερώτημα 3
+
+IL1.miss_num = system.cpu_cluster.cpus.icache.demand_misses::.cpu_cluster.cpus.inst = 327  
+DL1.miss_num = system.cpu_cluster.cpus.dcache.overall_misses::.cpu_cluster.cpus.data = 177  
+L2.miss_num = system.cpu_cluster.l2.overall_misses::total = 474  
+Total_inst_num = sim_insts = 5027  
+CPI = 6.3160931
+
+
 ### Ερώτημα 4a
 
 Έτρεξα ένα απλό πρόγραμμα C (squares.c) που εκτυπώνει τα τετράγωνα όλων των ακεραίων από το 1 έως το 1000, χρησιμοποιόντας πρώτα το MinorCPU και μετά το TimingSimpleCPU.
