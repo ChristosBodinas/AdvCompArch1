@@ -5,7 +5,7 @@
 
 ### Ερώτημα 2
 
-Από το αρχείο hello_result/stats.text:
+Από το αρχείο code/hello_result/stats.text:
 
 *	sim\_seconds			0.000035		# Number of seconds simulated  
 *	sim\_insts			5027			# Number of instructions simulated  
